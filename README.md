@@ -1,12 +1,38 @@
-# React + Vite
+# React To-Do List with Authentication
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive task management application built with:
 
-Currently, two official plugins are available:
+- React 18 + Vite
+- Redux with Redux Saga
+- React Router 6
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+### Task Management
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Add new tasks with priorities
+- Delete tasks
+- Categorize by priority (High/Medium/Low)
+- Automatic localStorage persistence
+
+### Authentication
+
+-  Login/logout functionality
+-  Protected routes
+-  Mock authentication system
+
+### UI/UX
+
+-  Fully responsive design
+-  Clean modern interface
+-  Interactive feedback
+
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/react-todo-vite.git
+cd react-todo-vite
+```
